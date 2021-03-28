@@ -19,3 +19,10 @@ add_library(glLib glLib.cpp)
 target_link_libraries(glLib glfw)
 target_link_libraries(glLib glad)
 target_link_libraries(glLib OpenGL::GL)
+
+
+add_library(glApp glApp.cpp)
+target_link_libraries(glApp glfw)
+target_link_libraries(glApp glad)
+target_link_libraries(glApp OpenGL::GL)
+
